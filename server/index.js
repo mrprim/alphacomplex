@@ -16,7 +16,7 @@ app.use(express.static('build'))
 app.use(express.static('public'))
 
 app.get('/card', (req, res) => {
-  db.collection('cards').doc('a').set({
+  db.collection('cards').add({
     name: 'Los',
     state: 'CA',
     country: 'USA'
