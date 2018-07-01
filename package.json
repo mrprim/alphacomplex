@@ -1,26 +1,17 @@
 {
-  "name": "alphacomplex",
+  "name": "alphacomplex-client",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack -dw",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mrprim/alphacomplex.git"
+    "dev": "webpack --config=./client/webpack.config.js -dw",
+    "start": "node ./server/index.js"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mrprim/alphacomplex/issues"
-  },
-  "homepage": "https://github.com/mrprim/alphacomplex#readme",
   "dependencies": {
     "express": "^4.16.3",
     "firebase": "^5.2.0",
-    "http-auth": "^3.2.3",
     "webpack": "^4.14.0",
     "webpack-cli": "^3.0.8"
   }

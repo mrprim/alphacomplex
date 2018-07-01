@@ -7,11 +7,8 @@ const db = firebase.firestore()
 const settings = { timestampsInSnapshots: true }
 db.settings(settings)
 
-db.collection('users').get().then((querySnapshot) => {
-  console.log('got users')
-  querySnapshot.forEach((doc) => {
-    console.log(`${doc.id} => ${JSON.stringify(doc.data())}`)
-  })
+db.collection('cards').get().then(querySnapshot => {
+  querySnapshot.forEach(doc => document.write(`${doc.id} => ${JSON.stringify(doc.data())}`))
 })
 
 console.log('bundle built and loaded')
