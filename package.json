@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack -dw",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/mrprim/alphacomplex/issues"
   },
-  "homepage": "https://github.com/mrprim/alphacomplex#readme"
+  "homepage": "https://github.com/mrprim/alphacomplex#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "http-auth": "^3.2.3",
+    "webpack": "^4.14.0",
+    "webpack-cli": "^3.0.8"
+  }
 }
