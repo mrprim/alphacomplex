@@ -1,8 +1,8 @@
 module.exports = {
-  apiKey: 'AIzaSyCf0HolCOqDbEV6AF9FOLkMGJjTF0AFgwE',
-  authDomain: 'alphacomplex-2c5f1.firebaseapp.com',
-  databaseURL: 'https://alphacomplex-2c5f1.firebaseio.com',
-  projectId: 'alphacomplex-2c5f1',
-  storageBucket: '',
-  messagingSenderId: '265177776686'
+  apiKey: "AIzaSyCfu2E411D3B9Se_22TbSRwMLHaYMNjpIU",
+  authDomain: "alphacomplex-30598.firebaseapp.com",
+  databaseURL: "https://alphacomplex-30598.firebaseio.com",
+  projectId: "alphacomplex-30598",
+  storageBucket: "alphacomplex-30598.appspot.com",
+  messagingSenderId: "74483021267"
 }
